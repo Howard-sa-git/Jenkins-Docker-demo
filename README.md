@@ -1,2 +1,7 @@
 # Jenkins-Docker-demo
 try jenkins
+了解整個Jenkins的運作流程
+程式碼、DockerFile、JenkinsFile都放在Git 來進行控制
+
+JenkinsFile建議放在Git的原因為如果機器故障 導致JenkinsPipeline也一起消失會造成很大的損失
+因此將JenkinsFile放在GitHub是個相對安全的做法
